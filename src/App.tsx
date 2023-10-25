@@ -1,5 +1,17 @@
+import Header from '@/components/Header';
+import Sidebar from './components/Sidebar';
+import ProductList from './components/ProductList';
+
 function App() {
-  return <h1 className='text-3xl font-bold underline'>Hello world!</h1>;
+  return (
+    <div>
+      <Header />
+      <div className='w-full max-w-7xl mx-auto flex items-start gap-12'>
+        <Sidebar />
+        <ProductList />
+      </div>
+    </div>
+  );
 }
 
 export default App;

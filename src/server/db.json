@@ -1,0 +1,618 @@
+{
+  "brands": [
+    {
+      "id": 1,
+      "name": "Samsung"
+    },
+    {
+      "id": 2,
+      "name": "Apple"
+    },
+    {
+      "id": 3,
+      "name": "Incipio"
+    },
+    {
+      "id": 4,
+      "name": "OtterBox"
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Appliances"
+    },
+    {
+      "id": 2,
+      "name": "Audio"
+    }
+  ],
+  "subCategories": [
+    {
+      "id": 1,
+      "idCategory": 1,
+      "name": "Dishwashers"
+    },
+    {
+      "id": 2,
+      "idCategory": 1,
+      "name": "Fans"
+    },
+    {
+      "id": 3,
+      "idCategory": 2,
+      "name": "Home Audio"
+    },
+    {
+      "id": 4,
+      "idCategory": 2,
+      "name": "Headphones"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "brandId": 1,
+      "name": "Samsung Dishwasher 1",
+      "subCategoryId": 1,
+      "categoryId": 1,
+      "isFree": true,
+      "description": "A high-quality dishwasher from Samsung with advanced features.",
+      "price": 499.99,
+      "rating": 5,
+      "image": "https://cdn-demo.algolia.com/bestbuy-0118/5495315_sb.jpg"
+    },
+    {
+      "id": 2,
+      "brandId": 1,
+      "name": "Samsung Fan 1",
+      "subCategoryId": 2,
+      "categoryId": 1,
+      "isFree": false,
+      "description": "A powerful Samsung fan for cooling your home.",
+      "price": 79.99,
+      "rating": 3,
+      "image": "https://cdn-demo.algolia.com/bestbuy-0118/5495315_sb.jpg"
+    },
+    {
+      "id": 3,
+      "brandId": 2,
+      "name": "Apple Home Audio System",
+      "subCategoryId": 3,
+      "categoryId": 2,
+      "isFree": false,
+      "description": "Enjoy immersive sound with Apple's home audio system.",
+      "price": 299.99,
+      "rating": 2,
+      "image": "https://cdn-demo.algolia.com/bestbuy-0118/5495315_sb.jpg"
+    },
+    {
+      "id": 4,
+      "brandId": 2,
+      "name": "Apple Headphones Pro",
+      "subCategoryId": 4,
+      "categoryId": 2,
+      "isFree": false,
+      "description": "Experience premium audio quality with Apple's headphones.",
+      "price": 149.99,
+      "rating": 1,
+      "image": "https://cdn-demo.algolia.com/bestbuy-0118/5495315_sb.jpg"
+    },
+    {
+      "id": 5,
+      "brandId": 3,
+      "name": "Incipio Dishwasher 1",
+      "subCategoryId": 1,
+      "categoryId": 1,
+      "isFree": true,
+      "description": "An efficient dishwasher from Incipio for your kitchen needs.",
+      "price": 399.99,
+      "rating": 4,
+      "image": "https://cdn-demo.algolia.com/bestbuy-0118/5495315_sb.jpg"
+    },
+    {
+      "id": 6,
+      "brandId": 3,
+      "name": "Incipio Fan 1",
+      "subCategoryId": 2,
+      "categoryId": 1,
+      "isFree": false,
+      "description": "Keep your home cool with Incipio's stylish fan.",
+      "price": 69.99,
+      "rating": 5,
+      "image": "https://cdn-demo.algolia.com/bestbuy-0118/5495315_sb.jpg"
+    },
+    {
+      "id": 7,
+      "brandId": 4,
+      "name": "OtterBox Headphones",
+      "subCategoryId": 4,
+      "categoryId": 2,
+      "isFree": false,
+      "description": "OtterBox's headphones deliver rich sound and comfort.",
+      "price": 129.99,
+      "rating": 4,
+      "image": "https://cdn-demo.algolia.com/bestbuy-0118/5495315_sb.jpg"
+    },
+    {
+      "id": 8,
+      "brandId": 1,
+      "name": "Samsung Dishwasher 2",
+      "subCategoryId": 1,
+      "categoryId": 1,
+      "isFree": false,
+      "description": "A modern Samsung dishwasher with energy-saving features.",
+      "price": 549.99,
+      "rating": 3,
+      "image": "https://cdn-demo.algolia.com/bestbuy-0118/5495315_sb.jpg"
+    },
+    {
+      "id": 9,
+      "brandId": 2,
+      "name": "Apple Audio Receiver",
+      "subCategoryId": 3,
+      "categoryId": 2,
+      "isFree": false,
+      "description": "Connect and enjoy your music with Apple's audio receiver.",
+      "price": 199.99,
+      "rating": 2,
+      "image": "https://cdn-demo.algolia.com/bestbuy-0118/5495315_sb.jpg"
+    },
+    {
+      "id": 10,
+      "brandId": 2,
+      "name": "Apple Bluetooth Earbuds",
+      "subCategoryId": 4,
+      "categoryId": 2,
+      "isFree": true,
+      "description": "Wireless and convenient earbuds from Apple for your active lifestyle.",
+      "price": 129.99,
+      "rating": 5,
+      "image": "https://cdn-demo.algolia.com/bestbuy-0118/5495315_sb.jpg"
+    },
+    {
+      "id": 11,
+      "brandId": 3,
+      "name": "Incipio Microwave Oven",
+      "subCategoryId": 1,
+      "categoryId": 1,
+      "isFree": false,
+      "description": "Incipio's microwave oven for quick and easy cooking.",
+      "price": 149.99,
+      "rating": 4,
+      "image": "https://cdn-demo.algolia.com/bestbuy-0118/5495315_sb.jpg"
+    },
+    {
+      "id": 12,
+      "brandId": 3,
+      "name": "Incipio Speaker System",
+      "subCategoryId": 3,
+      "categoryId": 2,
+      "isFree": true,
+      "description": "Enjoy superior sound quality with Incipio's speaker system.",
+      "price": 179.99,
+      "rating": 3,
+      "image": "https://cdn-demo.algolia.com/bestbuy-0118/5495315_sb.jpg"
+    },
+    {
+      "id": 13,
+      "brandId": 4,
+      "name": "OtterBox Portable Charger",
+      "subCategoryId": 2,
+      "categoryId": 1,
+      "isFree": true,
+      "description": "Stay charged on the go with OtterBox's portable charger.",
+      "price": 49.99,
+      "rating": 1,
+      "image": "https://cdn-demo.algolia.com/bestbuy-0118/5495315_sb.jpg"
+    },
+    {
+      "id": 14,
+      "brandId": 4,
+      "name": "OtterBox Headphones Pro",
+      "subCategoryId": 4,
+      "categoryId": 2,
+      "isFree": false,
+      "description": "Premium sound and comfort with OtterBox's headphones.",
+      "price": 159.99,
+      "rating": 5,
+      "image": "https://cdn-demo.algolia.com/bestbuy-0118/5495315_sb.jpg"
+    },
+    {
+      "id": 15,
+      "brandId": 1,
+      "name": "Samsung Air Purifier",
+      "subCategoryId": 2,
+      "categoryId": 1,
+      "isFree": false,
+      "description": "Breathe clean air with Samsung's advanced air purifier.",
+      "price": 249.99,
+      "rating": 2,
+      "image": "https://cdn-demo.algolia.com/bestbuy-0118/5495315_sb.jpg"
+    },
+    {
+      "id": 16,
+      "brandId": 1,
+      "name": "Samsung Washer & Dryer Set",
+      "subCategoryId": 1,
+      "categoryId": 1,
+      "isFree": true,
+      "description": "A combo washer and dryer set from Samsung for your laundry needs.",
+      "price": 799.99,
+      "rating": 4,
+      "image": "https://cdn-demo.algolia.com/bestbuy-0118/5495315_sb.jpg"
+    },
+    {
+      "id": 17,
+      "brandId": 2,
+      "name": "Apple Soundbar System",
+      "subCategoryId": 3,
+      "categoryId": 2,
+      "isFree": false,
+      "description": "Upgrade your home theater with Apple's soundbar system.",
+      "price": 349.99,
+      "rating": 3,
+      "image": "https://cdn-demo.algolia.com/bestbuy-0118/5495315_sb.jpg"
+    },
+    {
+      "id": 18,
+      "brandId": 3,
+      "name": "Incipio Smart Thermostat",
+      "subCategoryId": 2,
+      "categoryId": 1,
+      "isFree": false,
+      "description": "Control your home's temperature with Incipio's smart thermostat.",
+      "price": 99.99,
+      "rating": 4,
+      "image": "https://cdn-demo.algolia.com/bestbuy-0118/5495315_sb.jpg"
+    },
+    {
+      "id": 19,
+      "brandId": 3,
+      "name": "Incipio Wireless Charger",
+      "subCategoryId": 2,
+      "categoryId": 1,
+      "isFree": false,
+      "description": "Charge your devices wirelessly with Incipio's convenient charger.",
+      "price": 29.99,
+      "rating": 3,
+      "image": "https://cdn-demo.algolia.com/bestbuy-0118/5495315_sb.jpg"
+    },
+    {
+      "id": 20,
+      "brandId": 4,
+      "name": "OtterBox Bluetooth Speaker",
+      "subCategoryId": 3,
+      "categoryId": 2,
+      "isFree": true,
+      "description": "Enjoy music on the go with OtterBox's portable Bluetooth speaker.",
+      "price": 79.99,
+      "rating": 5,
+      "image": "https://cdn-demo.algolia.com/bestbuy-0118/5495315_sb.jpg"
+    },
+    {
+      "id": 21,
+      "brandId": 4,
+      "name": "OtterBox Tablet Case",
+      "subCategoryId": 1,
+      "categoryId": 1,
+      "isFree": false,
+      "description": "Protect your tablet with OtterBox's durable and stylish case.",
+      "price": 39.99,
+      "rating": 1,
+      "image": "https://cdn-demo.algolia.com/bestbuy-0118/5495315_sb.jpg"
+    },
+    {
+      "id": 22,
+      "brandId": 1,
+      "name": "Samsung Vacuum Cleaner",
+      "subCategoryId": 2,
+      "categoryId": 1,
+      "isFree": true,
+      "description": "Keep your home clean with Samsung's powerful vacuum cleaner.",
+      "price": 159.99,
+      "rating": 4,
+      "image": "https://cdn-demo.algolia.com/bestbuy-0118/5495315_sb.jpg"
+    },
+    {
+      "id": 23,
+      "brandId": 1,
+      "name": "Samsung Refrigerator",
+      "subCategoryId": 1,
+      "categoryId": 1,
+      "isFree": true,
+      "description": "Store your food in style with Samsung's high-capacity refrigerator.",
+      "price": 799.99,
+      "rating": 2,
+      "image": "https://cdn-demo.algolia.com/bestbuy-0118/5495315_sb.jpg"
+    },
+    {
+      "id": 24,
+      "brandId": 2,
+      "name": "Apple HomePod Mini",
+      "subCategoryId": 3,
+      "categoryId": 2,
+      "isFree": false,
+      "description": "Compact and powerful, Apple's HomePod Mini fits in any room.",
+      "price": 99.99,
+      "rating": 5,
+      "image": "https://cdn-demo.algolia.com/bestbuy-0118/5495315_sb.jpg"
+    },
+    {
+      "id": 25,
+      "brandId": 2,
+      "name": "Apple Wireless Mouse",
+      "subCategoryId": 2,
+      "categoryId": 1,
+      "isFree": false,
+      "description": "Stay productive with Apple's wireless and ergonomic mouse.",
+      "price": 49.99,
+      "rating": 4,
+      "image": "https://cdn-demo.algolia.com/bestbuy-0118/5495315_sb.jpg"
+    },
+    {
+      "id": 26,
+      "brandId": 3,
+      "name": "Incipio Wireless Earbuds",
+      "subCategoryId": 4,
+      "categoryId": 2,
+      "isFree": true,
+      "description": "Enjoy wireless audio with Incipio's comfortable earbuds.",
+      "price": 69.99,
+      "rating": 3,
+      "image": "https://cdn-demo.algolia.com/bestbuy-0118/5495315_sb.jpg"
+    },
+    {
+      "id": 27,
+      "brandId": 3,
+      "name": "Incipio Smart Plug",
+      "subCategoryId": 2,
+      "categoryId": 1,
+      "isFree": false,
+      "description": "Make your home smarter with Incipio's Wi-Fi smart plug.",
+      "price": 19.99,
+      "rating": 1,
+      "image": "https://cdn-demo.algolia.com/bestbuy-0118/5495315_sb.jpg"
+    },
+    {
+      "id": 28,
+      "brandId": 4,
+      "name": "OtterBox Smartwatch",
+      "subCategoryId": 3,
+      "categoryId": 2,
+      "isFree": true,
+      "description": "Stay connected with OtterBox's feature-rich smartwatch.",
+      "price": 199.99,
+      "rating": 2,
+      "image": "https://cdn-demo.algolia.com/bestbuy-0118/5495315_sb.jpg"
+    },
+    {
+      "id": 29,
+      "brandId": 1,
+      "name": "Samsung Air Conditioner",
+      "subCategoryId": 2,
+      "categoryId": 1,
+      "isFree": false,
+      "description": "Keep your home cool with Samsung's efficient air conditioner.",
+      "price": 349.99,
+      "rating": 3,
+      "image": "https://cdn-demo.algolia.com/bestbuy-0118/5495315_sb.jpg"
+    },
+    {
+      "id": 30,
+      "brandId": 1,
+      "name": "Samsung Coffee Maker",
+      "subCategoryId": 2,
+      "categoryId": 1,
+      "isFree": false,
+      "description": "Start your day with fresh coffee from Samsung's coffee maker.",
+      "price": 69.99,
+      "rating": 5,
+      "image": "https://cdn-demo.algolia.com/bestbuy-0118/5495315_sb.jpg"
+    },
+    {
+      "id": 31,
+      "brandId": 2,
+      "name": "Apple Smartwatch",
+      "subCategoryId": 3,
+      "categoryId": 2,
+      "isFree": false,
+      "description": "Track your health and stay connected with Apple's smartwatch.",
+      "price": 299.99,
+      "rating": 3,
+      "image": "https://cdn-demo.algolia.com/bestbuy-0118/5495315_sb.jpg"
+    },
+    {
+      "id": 32,
+      "brandId": 2,
+      "name": "Apple Laptop Stand",
+      "subCategoryId": 2,
+      "categoryId": 1,
+      "isFree": true,
+      "description": "Elevate your laptop with Apple's sleek and adjustable stand.",
+      "price": 49.99,
+      "rating": 4,
+      "image": "https://cdn-demo.algolia.com/bestbuy-0118/5495315_sb.jpg"
+    },
+    {
+      "id": 33,
+      "brandId": 3,
+      "name": "Incipio Smartphone Case",
+      "subCategoryId": 1,
+      "categoryId": 1,
+      "isFree": false,
+      "description": "Protect your smartphone with Incipio's durable case.",
+      "price": 19.99,
+      "rating": 2,
+      "image": "https://cdn-demo.algolia.com/bestbuy-0118/5495315_sb.jpg"
+    },
+    {
+      "id": 34,
+      "brandId": 3,
+      "name": "Incipio Power Bank",
+      "subCategoryId": 2,
+      "categoryId": 1,
+      "isFree": true,
+      "description": "Stay charged on the go with Incipio's reliable power bank.",
+      "price": 29.99,
+      "rating": 3,
+      "image": "https://cdn-demo.algolia.com/bestbuy-0118/5495315_sb.jpg"
+    },
+    {
+      "id": 35,
+      "brandId": 4,
+      "name": "OtterBox Laptop Backpack",
+      "subCategoryId": 2,
+      "categoryId": 1,
+      "isFree": false,
+      "description": "Carry your laptop and accessories in style with OtterBox's backpack.",
+      "price": 59.99,
+      "rating": 2,
+      "image": "https://cdn-demo.algolia.com/bestbuy-0118/5495315_sb.jpg"
+    },
+    {
+      "id": 36,
+      "brandId": 4,
+      "name": "OtterBox Gaming Mouse",
+      "subCategoryId": 4,
+      "categoryId": 2,
+      "isFree": false,
+      "description": "Improve your gaming experience with OtterBox's high-performance mouse.",
+      "price": 39.99,
+      "rating": 1,
+      "image": "https://cdn-demo.algolia.com/bestbuy-0118/5495315_sb.jpg"
+    },
+    {
+      "id": 37,
+      "brandId": 1,
+      "name": "Samsung Smart TV",
+      "subCategoryId": 3,
+      "categoryId": 2,
+      "isFree": true,
+      "description": "Enjoy 4K entertainment with Samsung's feature-packed smart TV.",
+      "price": 699.99,
+      "rating": 2,
+      "image": "https://cdn-demo.algolia.com/bestbuy-0118/5495315_sb.jpg"
+    },
+    {
+      "id": 38,
+      "brandId": 2,
+      "name": "Apple iPad Pro",
+      "subCategoryId": 1,
+      "categoryId": 1,
+      "isFree": false,
+      "description": "Experience the power of Apple's iPad Pro with stunning graphics and performance.",
+      "price": 799.99,
+      "rating": 4,
+      "image": "https://cdn-demo.algolia.com/bestbuy-0118/5495315_sb.jpg"
+    },
+    {
+      "id": 39,
+      "brandId": 2,
+      "name": "Apple Magic Keyboard",
+      "subCategoryId": 2,
+      "categoryId": 1,
+      "isFree": false,
+      "description": "Elevate your typing experience with Apple's Magic Keyboard.",
+      "price": 149.99,
+      "rating": 5,
+      "image": "https://cdn-demo.algolia.com/bestbuy-0118/5495315_sb.jpg"
+    },
+    {
+      "id": 40,
+      "brandId": 3,
+      "name": "Incipio Wireless Headphones",
+      "subCategoryId": 4,
+      "categoryId": 2,
+      "isFree": true,
+      "description": "Enjoy crystal clear audio with Incipio's wireless headphones.",
+      "price": 89.99,
+      "rating": 4,
+      "image": "https://cdn-demo.algolia.com/bestbuy-0118/5495315_sb.jpg"
+    },
+    {
+      "id": 41,
+      "brandId": 3,
+      "name": "Incipio Phone Stand",
+      "subCategoryId": 2,
+      "categoryId": 1,
+      "isFree": false,
+      "description": "Keep your phone at the perfect angle with Incipio's adjustable stand.",
+      "price": 19.99,
+      "rating": 4.2,
+      "image": "https://cdn-demo.algolia.com/bestbuy-0118/5495315_sb.jpg"
+    },
+    {
+      "id": 42,
+      "brandId": 4,
+      "name": "OtterBox Wireless Charger",
+      "subCategoryId": 2,
+      "categoryId": 1,
+      "isFree": true,
+      "description": "Charge your devices wirelessly with OtterBox's fast charger.",
+      "price": 39.99,
+      "rating": 4.5,
+      "image": "https://cdn-demo.algolia.com/bestbuy-0118/5495315_sb.jpg"
+    },
+    {
+      "id": 43,
+      "brandId": 4,
+      "name": "OtterBox Tablet Stand",
+      "subCategoryId": 1,
+      "categoryId": 1,
+      "isFree": false,
+      "description": "Elevate your tablet with OtterBox's versatile and sturdy stand.",
+      "price": 29.99,
+      "rating": 4.6,
+      "image": "https://cdn-demo.algolia.com/bestbuy-0118/5495315_sb.jpg"
+    },
+    {
+      "id": 44,
+      "brandId": 1,
+      "name": "Samsung 4K Monitor",
+      "subCategoryId": 3,
+      "categoryId": 2,
+      "isFree": true,
+      "description": "Get stunning visuals with Samsung's 4K monitor for gaming and work.",
+      "price": 499.99,
+      "rating": 4.4,
+      "image": "https://cdn-demo.algolia.com/bestbuy-0118/5495315_sb.jpg"
+    },
+    {
+      "id": 45,
+      "brandId": 1,
+      "name": "Samsung Smart Speaker",
+      "subCategoryId": 3,
+      "categoryId": 2,
+      "isFree": false,
+      "description": "Voice control your home with Samsung's smart speaker with AI assistance.",
+      "price": 129.99,
+      "rating": 4.7,
+      "image": "https://cdn-demo.algolia.com/bestbuy-0118/5495315_sb.jpg"
+    },
+    {
+      "id": 46,
+      "brandId": 2,
+      "name": "Apple USB-C Hub",
+      "subCategoryId": 2,
+      "categoryId": 1,
+      "isFree": false,
+      "description": "Expand your device connectivity with Apple's USB-C hub.",
+      "price": 59.99,
+      "rating": 4.5,
+      "image": "https://cdn-demo.algolia.com/bestbuy-0118/5495315_sb.jpg"
+    },
+    {
+      "id": 47,
+      "brandId": 2,
+      "name": "Apple AirTag",
+      "subCategoryId": 1,
+      "categoryId": 1,
+      "isFree": true,
+      "description": "Keep track of your belongings with Apple's Bluetooth AirTag.",
+      "price": 29.99,
+      "rating": 4.3,
+      "image": "https://cdn-demo.algolia.com/bestbuy-0118/5495315_sb.jpg"
+    }
+  ]
+}
